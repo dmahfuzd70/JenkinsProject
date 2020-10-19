@@ -1,6 +1,6 @@
 node{
    stage('SCM Checkout'){
-     git 'https://github.com/javahometech/my-app'
+     git 'https://github.com/dmahfuzd70/JenkinsProject'
    }
    stage('Compile-Package'){
       // Get maven home path
